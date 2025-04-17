@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: soundMusic
+  datasource:
+    url: jdbc:postgresql://localhost/alura_musicas
+    hikari:
+      username: postgres
+      password: 123
+    driver-class-name: org.postgresql.Driver
